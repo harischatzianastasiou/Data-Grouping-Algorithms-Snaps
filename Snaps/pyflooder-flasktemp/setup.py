@@ -8,7 +8,7 @@ setup(
                 Runs an HTTP Flood Python script that could stop
                 the webpage used in flasktemp',
         author='tchatzian',
-        author_email='harischatzi1988@gmail.com',
+        author_email='harischat@tutanota.com',
         url='https://github.com/tchatzian/pyflooder-flasktemp',
         packages=['pyflooder-flasktemp'],
         include_package_data=True,
