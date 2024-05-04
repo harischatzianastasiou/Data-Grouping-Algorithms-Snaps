@@ -4,16 +4,12 @@ from setuptools import setup
 setup(
         name='flasktemp',
         version='1.0.0',
-        description='contains some sample hello world code using Flask',
+        description='Shows the weather on a local webpage using Flask micro web framework',
         author='tchatzian',
-        author_email='harischatzi1988@gmail.com',
+        author_email='harischatzi@tutanota.com',
         url='https://github.com/tchatzian/flasktemp',
         packages=['flasktemp'],
         include_package_data=True,
         zip_safe=False,
-        install_requires=[
-            'flask',
-            'requests',
-        ],
         scripts=['flasktemp/flasktemp.py']
 )
