@@ -1,1 +1,0 @@
-from .flasktemp import app
