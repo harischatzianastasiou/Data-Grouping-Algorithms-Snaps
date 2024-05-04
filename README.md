@@ -17,7 +17,7 @@ To examine the proposed system, an experimental procedure is followed in this pa
         
     - DenStream is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
     
-    - The efficiency of DenStream in each behavioral simulation is examined. 
+    - The efficiency of DenStream in each behavioral simulation, compared to other clustering algorithms, is examined. 
       
 If in the results of the non-normal behavior simulation, the existence of an additional behavior is detected in a lightweight way, then it means that in a time interval where the device performs its normal operation, a normal operation profile can be generated (by storing the results of the algorithm clustering). Then the abnormal behaviour can be detected when the results of a new clustering are not detected in the normal operation profile.
 
