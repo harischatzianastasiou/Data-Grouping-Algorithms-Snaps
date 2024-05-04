@@ -1,6 +1,6 @@
-#THESIS Associated with University of Thessaly
+### THESIS Associated with University of Thessaly
 
-USE OF DATA GROUPING ALGORITHMS FOR ANOMALY DETECTION IN IOT SYSTEMS
+# USE OF DATA GROUPING ALGORITHMS FOR ANOMALY DETECTION IN IOT SYSTEMS
 
 · Implementation of Denstream clustering algorithm in an IoT device, to propose a low-cost approach to detect anomaly behavior in IoT.
 
