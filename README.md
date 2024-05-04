@@ -4,18 +4,12 @@ THESIS Associated with University of Thessaly
 
 ##  Implementation of Denstream clustering algorithm in an IoT device, to propose a low-cost approach to detect anomaly behavior in IoT.
 
-· Recreation of the IoT enviroment with Ubuntu Core (snaps) on a Raspberry Pi. 
+In this thesis, an anomaly detection system is proposed that has as its main idea the use of a lightweight clustering algorithm in measurements related to the resource consumption of an IoT device. The purpose is to capture the current operation of the device in the clustering results of the algorithm, so that a profile of normal operation can be generated from them when the device is in a learning phase. Then, abnormal behavior may be detected whenever a new result of the algorithm clustering is not detected in the normal operation profile.
+To examine the proposed system, an experimental procedure is followed in this paper in which :
+    - A Raspberry Pi and Ubuntu Core software are chosen as the IoT environment that can be used to implement the proposed system.
+    - A mechanism for collecting measurements of the device is created in this environment.
+    - A normal abnormal behaviour of the device is simulated in order to collect measurements corresponding to different operations.
+    - DenStream is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
+      - The efficiency of DenStream in each behavioral simulation is examined. 
+If in the results of the non-normal behavior simulation, the existence of an additional behavior is detected in a lightweight way, then it means that in a time interval where the device performs its normal operation, a normal operation profile can be generated (by storing the results of the algorithm clustering). Then the abnormal behaviour can be detected when the results of a new clustering are not detected in the normal operation profile.
 
-· Development of Denstream python snap application.
-
-· Development of a monitoring python snap application to capture device resource usage. 
-
-· Development of weather python snap application to define normal behavior of the device.
-
-· Development of malicious python snap applications to define abnormal behaviors of the device. 
-
-· Execution of the monitoring snap application while the device operates under normal and abnormal behavior respectively. 
-
-· Creation of different datasets that describe normal and abnormal behavior. 
-
-· Examination of Denstream's effectiveness to detect the abnormal behavior, compared to other clustering algorithms.
