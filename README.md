@@ -12,7 +12,7 @@ To examine the proposed system, an experimental procedure is followed in this pa
     - A monitoring python snap application (psuitl-process-monitoring-snap) to capture device resource usage is created in this environment.
     
     - Normal and abnormal behaviours of the device is simulated in order to collect measurements corresponding to different operations.
-        - For the simulation of the normal behavior we created flasktemp, a weather python snap application using flask wewb framework is created.
+        - For the simulation of the normal behavior we created flasktemp, a weather python snap application using flask wewb framework.
         - For the simulation of the abnormal behavior we created pyflooder-flasktemp, an HTTP Flood Python snap that could stop the webpage used in 'flasktemp'.
         
     - DenStream is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
