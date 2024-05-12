@@ -23,8 +23,12 @@ THESIS Associated with University of Thessaly
       
 If anomalies are detected in the results of the abnormal behavior simulation, indicating the presence of additional behavior in a subtle manner, it implies that over a period during which the device conducts its regular operations, a profile of normal behavior can be established (by storing the outcomes of the algorithm's clustering). Subsequently, abnormal behavior can be identified when the results of a new clustering fail to align with the established profile of normal operation.
 
-<p> [1] (https://snapcraft.io/psutil-process-monitoring-snap)
+
+[1] (https://snapcraft.io/psutil-process-monitoring-snap)
+
 [2] (https://snapcraft.io/flasktemp)
+
 [3] (https://snapcraft.io/pyflooder-flasktemp)
+
 [4] Cao, Feng, Martin Estert, Weining Qian, and Aoying Zhou. "Density-based clustering over an evolving data stream with noise." In Proceedings of the 2006 SIAM international conference on data mining, pp. 328-339. Society for Industrial and Applied Mathematics, 2006. </p>
 
