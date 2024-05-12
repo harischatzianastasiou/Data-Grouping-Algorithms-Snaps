@@ -15,7 +15,7 @@ THESIS Associated with University of Thessaly
         - For the simulation of the normal behavior we created [flasktemp][2] and mystartup-snap. Flasktemp is a weather python snap application using flask web framework. Mystartup-snap is a snap bash script, to automatically run the weather python snap application when the device starts.
         - For the simulation of the abnormal behavior we created [pyflooder-flasktemp][3], an HTTP Flood python script that could stop the webpage used in 'flasktemp'.
         
-    - DenStream is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
+    - [DenStream][4] is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
     
     - The efficiency of DenStream in each behavioral simulation is examined.
     
@@ -26,4 +26,5 @@ If anomalies are detected in the results of the abnormal behavior simulation, in
 [1] (https://snapcraft.io/psutil-process-monitoring-snap)
 [2] (https://snapcraft.io/flasktemp)
 [3] (https://snapcraft.io/pyflooder-flasktemp)
+[4] Cao, Feng, Martin Estert, Weining Qian, and Aoying Zhou. "Density-based clustering over an evolving data stream with noise." In Proceedings of the 2006 SIAM international conference on data mining, pp. 328-339. Society for Industrial and Applied Mathematics, 2006.
 
