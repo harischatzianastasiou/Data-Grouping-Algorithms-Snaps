@@ -12,7 +12,7 @@ THESIS Associated with University of Thessaly
     - A monitoring python snap application is created (psuitl-process-monitoring-snap), in order to capture device resource usage. 
     
     - Normal and abnormal behaviour of the device is simulated to collect measurements corresponding to different operations.
-        - For the simulation of the normal behavior we created flasktemp, a weather python snap application using flask web framework.
+        - For the simulation of the normal behavior we created flasktemp and mystartup-snap. Flasktemp is a weather python snap application using flask web framework. Mystartup-snap is a snap bash script, to automatically run the weather python snap application when the device starts.
         - For the simulation of the abnormal behavior we created pyflooder-flasktemp, an HTTP Flood python script that could stop the webpage used in 'flasktemp'.
         
     - DenStream is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
