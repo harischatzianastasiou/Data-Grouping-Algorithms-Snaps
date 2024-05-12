@@ -9,11 +9,11 @@ THESIS Associated with University of Thessaly
 
     - A Raspberry Pi and Ubuntu Core software are chosen as the IoT environment that can be used to implement the proposed system.
     
-    - A monitoring python snap application is created ([psuitl-process-monitoring-snap](https://snapcraft.io/psutil-process-monitoring-snap)), in order to capture device resource usage. 
+    - A monitoring python snap application is created ([psuitl-process-monitoring-snap][1]), in order to capture device resource usage. 
     
     - Normal and abnormal behaviour of the device is simulated to collect measurements corresponding to different operations.
-        - For the simulation of the normal behavior we created flasktemp and mystartup-snap. Flasktemp is a weather python snap application using flask web framework. Mystartup-snap is a snap bash script, to automatically run the weather python snap application when the device starts.
-        - For the simulation of the abnormal behavior we created pyflooder-flasktemp, an HTTP Flood python script that could stop the webpage used in 'flasktemp'.
+        - For the simulation of the normal behavior we created [flasktemp][2] and mystartup-snap. Flasktemp is a weather python snap application using flask web framework. Mystartup-snap is a snap bash script, to automatically run the weather python snap application when the device starts.
+        - For the simulation of the abnormal behavior we created [pyflooder-flasktemp][3], an HTTP Flood python script that could stop the webpage used in 'flasktemp'.
         
     - DenStream is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
     
@@ -22,4 +22,8 @@ THESIS Associated with University of Thessaly
     - Other clustering algorithms are examined, to identify if DenStream outperforms them.
       
 If anomalies are detected in the results of the abnormal behavior simulation, indicating the presence of additional behavior in a subtle manner, it implies that over a period during which the device conducts its regular operations, a profile of normal behavior can be established (by storing the outcomes of the algorithm's clustering). Subsequently, abnormal behavior can be identified when the results of a new clustering fail to align with the established profile of normal operation.
+
+[1]: (https://snapcraft.io/psutil-process-monitoring-snap)
+[2]: https://snapcraft.io/flasktemp
+[3]: https://snapcraft.io/pyflooder-flasktemp
 
