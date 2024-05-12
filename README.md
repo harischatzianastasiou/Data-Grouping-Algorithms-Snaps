@@ -2,10 +2,10 @@ THESIS Associated with University of Thessaly
 
 # USE OF DATA GROUPING ALGORITHMS FOR ANOMALY DETECTION IN IOT SYSTEMS
 
-##  Implementation of Denstream clustering algorithm in an IoT device, to propose a low-cost approach to detect anomaly behavior in IoT.
+##  IoT devices are used in a multitude of applications that extend their influence across many sectors and activities. With the increasing rate of application of these devices, their success lies in their ability to be secured. Most of the IoT devices have limited computing resources. Therefore, the classical security mechanisms applied to most information systems cannot be applied to them. In this thesis, we consider the use of a lightweight clustering algorithm on measurements concerning the resource consumption of an IoT device, with the aim of capturing a change in the behavior of the device from the clustered results. The proposed system involves, the creation of a suitable IoT environment, using Ubuntu Core software. In this environment, snap applications are implemented in order to simulate a normal and abnormal operation of the device, and to collect measurements for each simulated operation. The clustering algorithm is evaluated with these metrics, taking into account the ability to create successful clusters, but also the workload on the device resources. After the experimental proof of the proposed system, it is possible to construct an anomaly detection system by storing the clustered measurements describing the normal behavior of the device in a normal operation profile.
 
-In this thesis, an anomaly detection system is proposed that has as its main idea the use of a lightweight clustering algorithm in measurements related to the resource consumption of an IoT device. The purpose is to capture the current operation of the device in the clustering results of the algorithm, so that a profile of normal operation can be generated from them when the device is in a learning phase. Then, abnormal behavior may be detected whenever a new result of the algorithm clustering is not detected in the normal operation profile.
-To examine the proposed system, an experimental procedure is followed in this paper in which :
+
+Experimental procedure to examine the proposed system
 
     - A Raspberry Pi and Ubuntu Core software are chosen as the IoT environment that can be used to implement the proposed system.
     
