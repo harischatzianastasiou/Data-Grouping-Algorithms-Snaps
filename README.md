@@ -9,15 +9,17 @@ THESIS Associated with University of Thessaly
 
     - A Raspberry Pi and Ubuntu Core software are chosen as the IoT environment that can be used to implement the proposed system.
     
-    - A monitoring python snap application (psuitl-process-monitoring-snap) to capture device resource usage is created in this environment.
+    - A monitoring python snap application is created(psuitl-process-monitoring-snap), in order to capture device resource usage 
     
-    - Normal and abnormal behaviours of the device is simulated in order to collect measurements corresponding to different operations.
-        - For the simulation of the normal behavior we created flasktemp, a weather python snap application using flask wewb framework.
-        - For the simulation of the abnormal behavior we created pyflooder-flasktemp, an HTTP Flood Python snap that could stop the webpage used in 'flasktemp'.
+    - Normal and abnormal behaviour of the device is simulated to collect measurements corresponding to different operations.
+        - For the simulation of the normal behavior we created flasktemp, a weather python snap application using flask web framework.
+        - For the simulation of the abnormal behavior we created pyflooder-flasktemp, an HTTP Flood python script that could stop the webpage used in 'flasktemp'.
         
     - DenStream is chosen as the algorithm for clustering the measurements. DenStream, was chosen as it uses a pioneering mechanism to detect groups in a stream, by which it keeps in memory specific points. Unlike other clustering algorithms, it aims for an approximate result, and focuses on lightweight clustering.
     
-    - The efficiency of DenStream in each behavioral simulation, compared to other clustering algorithms, is examined. 
+    - The efficiency of DenStream in each behavioral simulation is examined.
+    
+    - Lastly, we examine other clustering algorithms and see how they compare with DenStream.
       
-If in the results of the non-normal behavior simulation, the existence of an additional behavior is detected in a lightweight way, then it means that in a time interval where the device performs its normal operation, a normal operation profile can be generated (by storing the results of the algorithm clustering). Then the abnormal behaviour can be detected when the results of a new clustering are not detected in the normal operation profile.
+If anomalies are detected in the results of the non-smooth behavior simulation, indicating the presence of additional behavior in a subtle manner, it implies that over a period during which the device conducts its regular operations, a profile of normal behavior can be established (by storing the outcomes of the algorithm's clustering). Subsequently, abnormal behavior can be identified when the results of a new clustering fail to align with the established profile of normal operation.
 
