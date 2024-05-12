@@ -9,7 +9,7 @@ THESIS Associated with University of Thessaly
 
     - A Raspberry Pi and Ubuntu Core software are chosen as the IoT environment that can be used to implement the proposed system.
     
-    - A monitoring python snap application is created(psuitl-process-monitoring-snap), in order to capture device resource usage 
+    - A monitoring python snap application is created (psuitl-process-monitoring-snap), in order to capture device resource usage. 
     
     - Normal and abnormal behaviour of the device is simulated to collect measurements corresponding to different operations.
         - For the simulation of the normal behavior we created flasktemp, a weather python snap application using flask web framework.
