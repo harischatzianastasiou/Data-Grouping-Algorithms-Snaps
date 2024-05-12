@@ -21,5 +21,5 @@ THESIS Associated with University of Thessaly
     
     - Other clustering algorithms are examined, to identify if DenStream outperforms them.
       
-If anomalies are detected in the results of the non-smooth behavior simulation, indicating the presence of additional behavior in a subtle manner, it implies that over a period during which the device conducts its regular operations, a profile of normal behavior can be established (by storing the outcomes of the algorithm's clustering). Subsequently, abnormal behavior can be identified when the results of a new clustering fail to align with the established profile of normal operation.
+If anomalies are detected in the results of the abnormal behavior simulation, indicating the presence of additional behavior in a subtle manner, it implies that over a period during which the device conducts its regular operations, a profile of normal behavior can be established (by storing the outcomes of the algorithm's clustering). Subsequently, abnormal behavior can be identified when the results of a new clustering fail to align with the established profile of normal operation.
 
