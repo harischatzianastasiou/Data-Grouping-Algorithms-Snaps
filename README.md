@@ -19,7 +19,7 @@ THESIS Associated with University of Thessaly
     
     - The efficiency of DenStream in each behavioral simulation is examined.
     
-    - Lastly, we examine other clustering algorithms and see how they compare with DenStream.
+    - Other clustering algorithms are examined.
       
 If anomalies are detected in the results of the non-smooth behavior simulation, indicating the presence of additional behavior in a subtle manner, it implies that over a period during which the device conducts its regular operations, a profile of normal behavior can be established (by storing the outcomes of the algorithm's clustering). Subsequently, abnormal behavior can be identified when the results of a new clustering fail to align with the established profile of normal operation.
 
